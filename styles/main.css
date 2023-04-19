@@ -1,3 +1,61 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  border: 5px 5px;
+  font-size: 70px;
+  color: #113f67;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 40px;
+  border: 1px solid #113f67;
+  border-radius: 10px;
+  line-height: 2;
+}
+
+.brand {
+  font-family: cursive;
+  /* border: 5px 5px; */
+  font-size: 20px;
+  color: #113f67;
+}
+
+.life-story-section:hover {
+  color: white;
+}
+
+.share-pet-story-button {
+  background-color: #e66465;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px, rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+.share-pet-story-button:hover {
+  background-color: white;
+  color: #e66465;
+  transition: all 150ms ease-in-out;
+}
+
+.pet-benefits,
+.get-pet-link {
+  color: rgb(7, 7, 109);
+  text-decoration: none;
+}
+
+.pet-benefits,
+.get-pet-link:hover {
+  color: white;
+}
