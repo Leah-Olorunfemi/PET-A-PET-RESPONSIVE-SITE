@@ -26,6 +26,10 @@ h3 {
   padding: 10px 70px;
 }
 
+.nav-link {
+  margin-right: 90px;
+}
+
 .brand {
   font-family: cursive;
   /* border: 5px 5px; */
@@ -62,4 +66,9 @@ h3 {
 .pet-benefits,
 .get-pet-link:hover {
   color: white;
+}
+
+.abuse-btn {
+  display: block;
+  margin: 0 auto;
 }
