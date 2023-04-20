@@ -22,6 +22,10 @@ h3 {
   line-height: 2;
 }
 
+.pets-img {
+  padding: 10px 70px;
+}
+
 .brand {
   font-family: cursive;
   /* border: 5px 5px; */
