@@ -58,9 +58,13 @@ h3 {
   transition: all 150ms ease-in-out;
 }
 
-.pet-benefits,
-.get-pet-link {
+.pet-benefits {
   color: rgb(7, 7, 109);
+  text-decoration: none;
+}
+
+.get-pet-link {
+  color: white;
   text-decoration: none;
 }
 
