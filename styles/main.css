@@ -41,7 +41,8 @@ h3 {
   color: white;
 }
 
-.share-pet-story-button {
+.share-pet-story-button,
+.join-here-button {
   background-color: #e66465;
   display: block;
   margin: 0 auto;
@@ -71,4 +72,9 @@ h3 {
 .abuse-btn {
   display: block;
   margin: 0 auto;
+}
+
+.footer-links {
+  background: #dd6972;
+  /* backgroundcolor: #dd6972; */
 }
