@@ -29,8 +29,8 @@ function shareStory() {
     );
   }
 }
-let button = document.querySelector(".shareStory");
-button.addEventListener("click", shareStory);
+let getpetlink = document.querySelector(".shareStory");
+getpetlink.addEventListener("click", shareStory);
 
 function getpet() {
   let firstName = prompt("What is your first name?");
