@@ -63,16 +63,23 @@ h3 {
   text-decoration: none;
 }
 
-.getpetlink {
+.homepage-body-links,
+.get-pet-link:hover {
   color: white;
   text-decoration: none;
 }
 
-.pet-benefits,
-.get-pet-link:hover {
-  color: white;
+.homepage-body-links:hover {
+  background-color: #e66465;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: underline;
+  transition: all ease-in-out 200ms;
 }
-
+.pet-people {
+  height: 80vh;
+  border: 20px;
+}
 .abuse-btn {
   display: block;
   margin: 0 auto;
