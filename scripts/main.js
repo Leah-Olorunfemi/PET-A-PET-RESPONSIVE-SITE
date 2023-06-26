@@ -29,13 +29,13 @@ function shareStory() {
     );
   }
 }
-let getpetlink = document.querySelector(".shareStory");
-getpetlink.addEventListener("click", shareStory);
+let button = document.querySelector(".shareStory");
+button.addEventListener("click", shareStory);
 
 function getpet() {
   let firstName = prompt("What is your first name?");
   let lastName = prompt("What is your last name?");
-  let fullName = firstName + lastName;
+  let fullName = firstName + " " + lastName;
   let city = prompt("What city are you from?");
   city = city.toLowerCase();
   city = city.trim();
@@ -52,5 +52,5 @@ function getpet() {
     );
   }
 }
-let subDetails = document.querySelector("subDetails");
-subDetails.addEventListener("click", getpet);
+let profileDetails = document.querySelector(".profileDetails");
+profileDetails.addEventListener("click", getpet);
