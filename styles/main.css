@@ -7,19 +7,15 @@ body {
 }
 
 h1 {
-  text-align: center;
-  font-family: cursive;
-  border: 5px 5px;
-  font-size: 70px;
+  font-size: 80px;
   color: #113f67;
+  line-height: 2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
   font-family: cursive;
   font-size: 40px;
-  border: 1px solid #113f67;
-  border-radius: 10px;
-  line-height: 2;
 }
 
 .pets-img {
@@ -76,19 +72,8 @@ h3 {
   text-decoration: underline;
   transition: all ease-in-out 200ms;
 }
-.pet-people {
-  height: 80vh;
-  border: 20px;
-}
+
 .abuse-btn {
   display: block;
   margin: 0 auto;
-}
-
-@media (max-width: 900px) {
-  h1 {
-    text-align: center;
-    border: 5px 5px;
-    font-size: 20px;
-  }
 }
